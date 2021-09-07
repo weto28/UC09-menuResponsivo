@@ -1,0 +1,171 @@
+body, ul, li, img p h3{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+   
+ }
+    
+ a{
+    text-decoration: none;
+    color: white;
+}
+    
+/* nave bar */
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: auto;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+   
+}
+
+.navbar-expand-lg {
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -ms-flex-pack: start;
+   justify-content: space-between;
+}
+
+/*Inicio css modal*/
+
+*{
+    margin:0;
+    padding:0;
+ }
+  
+h1 {
+     color: maroon;
+     margin-left: 40px;
+ }
+      
+.fundo_modalX {
+    width:100%;
+    height:100%;
+    background:rgba(238, 235, 235, 0.75);
+    position:fixed;
+    display:none;
+    z-index:99;
+    top:0;
+}
+      
+.img_modalX {
+     cursor:pointer;
+}
+      
+.modalX {
+    width:60%;
+    height:50%;
+    background:#fff;
+    border: 1px solid #000;
+     margin:80px auto 0 auto;
+}
+      
+.modalX span{
+    float:right;
+    font-size:60px;
+    color: #fff;
+    margin:20px 20px;
+    position:fixed;
+    top:0;
+    right:0;
+}
+      
+.modalX span:hover{
+    color: #900;
+    margin:20px 20px;
+    transition:350px;
+}
+      
+.modalX img{
+    width:100%;
+    height:100%;	
+}
+  
+
+/* Termino css-modal*/
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    gap: 20px;
+    border: solid 2px black;
+    background: rgb(57, 243, 119);
+ 
+
+}
+
+
+.header > img{
+   
+    background: rgb(104, 105, 105);
+    border-radius: 30px 10px 30px 10px;
+    
+}
+
+.redes{
+    display: flex;
+
+}
+
+.redes li{
+    margin-left: 20px;
+
+}
+
+.redes li a:hover{
+    display: block;
+    padding: 10px;
+ 
+}
+
+
+
+
+/* SECTION aside 3 */
+
+.aside {
+   display: flex;
+   flex-wrap: wrap;
+
+   max-width: 1080px;
+   margin: 0 auto;
+   background: chartreuse;
+ 
+   
+ 
+  }
+
+img {
+    max-width: 100%;
+    display: block;
+    margin: 10px;
+
+}
+
+.aside > div{
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+
+
+
+  
+
+.footer{
+    display: flex;
+    background: black;
+    text-decoration: none;
+    color: white;
+    justify-content: space-around;
+}
+
+
+
